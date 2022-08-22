@@ -1,0 +1,109 @@
+Ich bin Fernando.
+
+******************************************************************************
+                            Es la historia del día de hoy
+******************************************************************************
+
+
+
+
+Todo aperanta que será dificil este día; amaneceio lloviendo y al paracer así esestara todo este día; no importa solo es un solo día más.
+
+Bueno es todo. 
+
+
+			     Mini-instructivo de Unix
+
+================================================================================
+ CONSEJO: Para abrir la terminal presione ctrl+alt+t.
+================================================================================
+
+|--------------|--------------------------------------------------|
+|    ls/dir    | Comando para listar lo que hay en el directorio. |
+|--------------|--------------------------------------------------|
+|     mkdir    | Comando para hacer un directorio.                |
+|--------------|--------------------------------------------------|
+|      cd      | Comando para cambiar de directorio.              |
+|--------------|--------------------------------------------------|
+|      pwd     | Comando para conocer el directorio actual.       |
+|--------------|--------------------------------------------------|
+|      rm      | Comando pata borrar un archivo.                  |
+|--------------|--------------------------------------------------|
+|     cd ..    | Mover al directorio anterior.                    |
+|--------------|--------------------------------------------------|
+| cd ../../../ | Mover tres directorios anteriores.               |
+|--------------|--------------------------------------------------|
+
+|                                                                          | | |
+ |                                                                          | | 
+| |                                                                          | |
+ | |                                                                          |
+| | |                     Mini-instructivo de vim                              |
+ | |                                                                          |
+| |                                                                          | |
+ |                                                                          | | 
+|                                                                          | | |
+
+En una terminal, nos desplazamos al directorio en donde queremos crear nuestro
+nuevo archivo.
+Con el comando vi seguido de un nombre y su correspondiente extención podemos
+abrir o crear archivos.
+
+/           \ /                                   \
+|  COMANDO  | |            Descripción            |
+\           / \                                   /
+---------------------------------------------------
+/                                                 \
+|     i     | |  Insertar (editar)                |
+|   [esc]   | |  Salir del comando                |
+|     x     | |  Borrar                           |
+|     R     | |  Reemplazar                       |
+|    :wq    | |  Salir y guardar                  |
+|    :w     | |  Guardar                          |
+|    :q!    | |  Salir y no guardar nada          |
+|    :$     | |  Ir a la última línea             |
+|   :100    | |  Ir a la línea 100                |
+|     o     | |  Abre renglón abajo               |
+|     O     | |  Abre renglón arriba              |
+|    dd     | |  Borrar la línea donde estoy      |
+|  /palabra | |  Busca la palabra                 | 
+|     n     | |  Próxima aparición de la palabra  |
+\                                                 /
+
+                            Mini-instructivo de git/GitHub
+
+================================================================================
+ CONSEJO: Para abrir la terminal presione ctrl+alt+t.
+================================================================================
+
+1.- sudo apt-get update
+2.- sudo apt-get upgrade
+3.- sudo apt-get install git  
+
+password: udiesfmipn1936
+
+
+
+a) Entrar a su cuenta en github.com
+b) Crear un repositorio "Paradigmas de Programación"
+
+
+
+c) Clonar el repositorio: git clone __________________
+                                    URL del repositorio
+d) Subir al directorio del repositorio  y crear o copiar el archivo que vamos a subir a la nube.
+
+e) Añadir: git add  _________
+                    archivo
+f) Descripción: git commit-m "Manual UNIX/VI/GIT"
+g) Subirlo: git push 
+
+
+*******password es un TOKEN de GitHub
+
+
+
+
+
+ 
+
