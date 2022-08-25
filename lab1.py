@@ -37,4 +37,66 @@ print ('First Name: ', 'Steve')
 print ('Last Name: ', 'Jobs')
 print ("Vamos a sumar esto" + "con esto otro")
 
+#==============================================================================
+# Continuar una instrucción en varios renglones
+#==============================================================================
 
+if 100 > 99 and \
+   200 <= 300 and \
+   True != False:
+       print ('Hello World!')
+
+#==============================================================================
+# Comandos diferentes en la misma línea
+#==============================================================================
+
+print ("Hola"); print ("tu!!") # Se concidera mala práctica
+
+
+#==============================================================================
+# Usando paréntesis redondos, cuadrados o llaves
+# se puede escribir en varios renglones
+#==============================================================================
+
+list = [1, 2, 3, 4,
+        5, 6, 7, 8,
+        9, 10, 11, 12]
+
+matriz = [ [1,2,3,4,],[5,6,7,8,],[9,10,11,12] ]
+
+print (list)
+print (matriz)
+
+#==============================================================================
+# Indentación estricta para procesos dependientes de: (dos punto)
+#==============================================================================
+
+if 10>5:
+    print ("diez es mayor que cinco")
+    print ("otra indentación")
+for i in list:
+        print (i)
+        print ("ok")
+if 10>5:
+    print ("verdadero")
+    if 10<20:
+    print ("verdadero")
+elif 5>3: # comienza segundo condicional
+    print ("esto no se imprimirá")
+else:
+    print ("aquí nunca llega")
+
+        
+
+
+
+   
+
+
+
+
+
+        
+        
+        
+        
