@@ -1,2 +1,0 @@
-print ("Hola otra vez")
-
