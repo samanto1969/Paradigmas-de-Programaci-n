@@ -76,7 +76,7 @@ for i in list:
 if 10>5:
     print ("verdadero")
     if 10<20:
-    print ("verdadero")
+       print ("verdadero")
 elif 5>3: # comienza segundo condicional
     print ("esto no se imprimirá")
 else:
@@ -180,5 +180,5 @@ print(palabra[-4])
         
         
         
-Footer
+
 
