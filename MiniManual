@@ -1,0 +1,81 @@
+*****************************************************************************
+
+Ich bin:	 Fernando Nicasio Ramírez
+Boleta: 	 2022330153
+Materia:	 Paradigmas de Programación.
+Grupo: 	         2AV1
+  
+******************************************************************************
+                            Es la historia del día de hoy
+******************************************************************************
+
+
+
+
+                             ************************
+                             Mini-instructivo de Unix
+                             ************************
+
+
+
+ls/dir					Comando para listar lo que hay en el directorio.
+mkdir					Conando para crear un directorio.
+cd 					Comando para cambiar de directorio
+pwd 					Comando para reconocer el directorio actual.
+rm 					Comando para borrar un archivo.
+cd .. 					Comando para moverse al directorio anterior.
+cd ../../../				Comando para moverse hacia tres directorios anteriores.
+rm -r ./nombre de directorio		Comando para borrar un directorio.
+rm *					Comando para borrar todo el contenido de un directorio.
+cp archivo.extension ./directorio	Comando para copiar un archivo a un directorio especifico.              
+
+
+
+                           ***********************
+                           Mini-instructivo de vim
+                           ***********************
+
+
+
+vi nombrearchivo.extensión 		Comando para crear un archivo.
+i					Comando para insertar texto.
+x 					Comando para borrar texto.
+esc					Comando para salir de comando.
+r					Comando para reemplazar texto.
+:wq					Comando para salir y guardar texto.
+:w					Comando para guardar.
+:q!					Comando para salir y no guardar nada.
+:$					Comando para ir a la última línea.
+:100					Comando para ir a la línea 100.
+o					Comando para abrir renglón abajo.
+O					Comando para abrit renglón arriba.
+dd					Comando para borrar la línea en donde se encuentra.
+/palabra				Comando para buscar la palabra.
+n					Comando para buscar la proxima aparición de una palabra
+
+
+
+                           ***********************
+                           Mini-instructivo de git
+                           ***********************
+
+
+
+
+sudo killall dpkg 			Instrucción para matar todo e instalar git.
+sudo rm /var/lib/dpkg/lock		Instrucción para borrar.
+sudo apt-get update			Instrucción para actualizar el sistema.
+sudo apt-get upgrade			Instrucción para actualizar el sistema.
+sudo apt-get install gir		Instrucción para instalar git.
+
+
+1.- Entrar a la cuenta de github.com.
+2.- Crear un repositorio en la cuenta de github.
+3.- Clonar el repositorio en la terminal: git clone URLdelrepositorio.
+4.- Entrar al directorio del repositorio y crear o copiar el archivo que vamos a subir a la nube.
+5.- Añadir: git add nombredearchivo a subir.
+6.- Descripción del archivo que se va a subir: git commit -m "Manual UNIX/VI/GIT"
+7.- Subir el archivo: git push.
+8.- Password es un TOKEN de GitHub.
+
+
