@@ -9,13 +9,12 @@
 #*******************************************************************************#   Conjunto en python
 #*******************************************************************************
 
-even_nums = {2.4. 6, 8, 10}  # conjunto de números pares
+even_nums = {2, 4, 6, 8, 10}  # conjunto de números pares
 print(even_nums)
 
 # El bool no es parte del conjunto
-emp = {1, 'Steve', 10,5 True } # conjunto de diferente objetos
+emp = {1, 'Steve', 10.5, True } # conjunto de diferente objetos
 print(emp)
-
 nums = {1, 2, 2, 3, 4, 4, 5, 5}
 print(nums)
 
@@ -27,7 +26,7 @@ print(nums)
 
 s = set('Hello')
 print(s)
-s = set((1, 2, 3, 4,5))
+s = set((1, 2, 3, 4, 5))
 print(s)
 
 
@@ -53,16 +52,16 @@ s2={4,5,6,7,8}
 su = s1|s2 #    Unión
 print(su)
 
-si = s1&s2 #    Unión
+si = s1&s2 #    Intersección
 print(si)
 
-sr = s1-s2 #    Unión
+sr = s1-s2 #    Diferencia de conjintos
 print(sr)
 
-sp = s2-s1 #    Unión
+sp = s2-s1 
 print(sp)
 
-ss = s1^s2 #    Unión
+ss = s1^s2 #    Diferencia simétrica
 print(ss)
 
 
@@ -97,18 +96,17 @@ print(capitals.get("india"))
 
 #   Reportar llave y valor
 for k in capitals:
-    print ("Key=" + k + ",Value= " + capitals[k])
+    print ("Key=" + k + ",Value = " + capitals[k])
 
 #   Nuevo dato para  el diccionario
 capitals["México"] = "CDMX"
 print(capitals)
 
 #   Borrar dato del diccionario
-del capitals["México"] = "CDMX"
+del capitals["México"] 
 print(capitals)
 
 #   Borrar todo el diccionario
-del capitals["México"] = "CDMX"
 del capitals
 
 #   Reportar llaves
@@ -118,7 +116,7 @@ print(romanNums.keys())
 print(romanNums.values())
 
 #   Juicio de llave (está o no está la llave en el diccionario)
-print("I" in ronanNums)
+print("I" in romanNums)
 print("X" in romanNums)
 print("XX" not in romanNums)
 
@@ -176,7 +174,7 @@ del nums
 #==============================================================
 L1 = [1,2,3]
 L2 = [4,5,6]
-print(L1+L2]
+print(L1+L2)
 
 #==============================================================
 #   Llenado a mano
@@ -190,8 +188,7 @@ print(potencial[100])
 #   Generar una tupla con la lista
 #==============================================================
 potencial = tuple(potencial)
-print(potencial[100]
-
+print(potencial[100])
 
 
 
