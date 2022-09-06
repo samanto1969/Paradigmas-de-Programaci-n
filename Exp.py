@@ -1,22 +1,30 @@
-# Python program to calculate
-# e raise to the power x
- 
- # Function to calculate value
- # using sum of first n terms of
- # Taylor Series
-def exponential(n, x):
-    sum = 1.0
+#========================================================
+#	Fernando Nicasio Ramírez
+#	Boleta: 2022330153
+#	Paradigmas de Programación
+#========================================================
+#
+#	PROGRAMA PARA CALCULAR e A LA POTENCIA x
+#
+#========================================================
+
+def exponencial(n, x):
+    suma = 1.0
     for i in range(n, 0, -1):
-        sum = 1+x * sum / i
-    print("e^x =", sum)
+	suma = 1+x * sum / i
+    print("e^x =", suma)
+
 
 n = 17
 x = 1.0
 
-exponential(n, x)
+
+exponencial(n, x)
+
+
 
 
       
 
                                    
-                                   # This code is contributed by Danish Raza
+                                  
