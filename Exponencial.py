@@ -11,7 +11,7 @@
 def exponencial(n, x):
     suma = 1.0
     for i in range(n, 0, -1):
-        suma = 1+x * sum / i
+        suma = 1+x*suma/i
     print("e^x =", suma)
 
 
