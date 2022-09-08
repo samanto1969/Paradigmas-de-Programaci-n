@@ -57,7 +57,7 @@ saludos(a)
 #====================================================================
 #   Función con muchos argumentns
 #=====================================================================
-def saludos_multiples(nombre, nombre2,nombre3):
+def saludos_multiples(nombre1, nombre2,nombre3):
     """Esta función saluda a 3 personas al mismo tiempo"""
     print("Hola ", nombre1,"'",nombre2, "y",nombre3)
 saludos_multiples("Hugo","Paco","Luis")
@@ -65,7 +65,7 @@ saludos_multiples("Hugo","Paco","Luis")
 #   Función con cualquier número de argumentos
 #=======================================================================
 def muchos_saludos(*nombres):
-    """Esta función saluda a todos los sque quieras"""
+    """Esta función saluda a todos los que quieras"""
     i = 0
     #==================================================
     #   end= es para ponerlo de corrido
@@ -75,12 +75,14 @@ def muchos_saludos(*nombres):
         # Último nombre
         if (i==len(nombres)-1):
             print(nombres[i])
-        else
+        else:
            # Cualquier otro nombre
-           print(nombres[i], end==",")
+           print(nombres[i], end=",")
         i+=1
 muchos_saludos("Bosco","Ángel","David","Tamara","Mili","Edwin","Lev","Luis","Abigail")
-def greet(firsrname, lastname):
+def greet(firstname, lastname):
+    print('Hello',firstname,lastname)
+
 #=============================================================
 #   Llamar la función con argumentos en desorden
 #===========================================================
@@ -92,10 +94,11 @@ def greet(**person):
     #===============================================
     #   persona tiene caraterísticas firstname y lastname
     #=====================================================
-    print('Helo', person['firstname'],person['lastname']
+    print('Hello', person['firstname'],person['lastname'])
+
 greet(firstname='Steve',lastname='Jobs')
-greet(lastname='Jobs',firstmame='Steve')
-greet(firstname='Bill',lastname='Gates') # Se pueden pasar más parámetros de los necesarios
+greet(lastname='Jobs',firstname='Steve')
+greet(firstname='Bill',lastname='Gates',age=55) # Se pueden pasar más parámetros de los necesarios
 #============================================================================================
 #   Función con valores por defecto
 #============================================================================================
