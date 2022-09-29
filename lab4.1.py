@@ -31,6 +31,7 @@ class Computadora:
 
     def __del__(self):
         print(f"Se eliminó la computadora: {self.marca}")
+        
 
 
 ############################################################################
@@ -49,13 +50,13 @@ class Persona:
     #   Constructor de persona
     #####################################
     
-    def __init__(self,nombres:str,apellidos:str,edad:int,marca:str,capacidad:int,ram:int):
+    def __init__(self,nombres:str,apellidos:str,edad:int,direccion:str,marca:str,capacidad:int,ram:int):
         self.nombre = nombres
         self.apellidos = apellidos
         self.edad = edad
         self.direccion = direccion
         self.Computadora = Computadora(marca,capacidad,ram)
-        print(f"- - - Accedimos al constructor de la persona: {nombre} {apellidos}")
+        print(f"- - - Accedimos al constructor de la persona: {nombres} {apellidos}")
 
     def imprimirInfo(self) -> None:
         print(f"- - - Mi nombre es {self.nombre} {self.apellidos}, tengo {self.edad} años de edad, vivo en {self.direccion}")
