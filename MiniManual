@@ -66,7 +66,7 @@ sudo killall dpkg 			Instrucción para matar todo e instalar git.
 sudo rm /var/lib/dpkg/lock		Instrucción para borrar.
 sudo apt-get update			Instrucción para actualizar el sistema.
 sudo apt-get upgrade			Instrucción para actualizar el sistema.
-sudo apt-get install gir		Instrucción para instalar git.
+sudo apt-get install git		Instrucción para instalar git.
 
 
 1.- Entrar a la cuenta de github.com.
