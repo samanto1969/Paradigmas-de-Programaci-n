@@ -20,6 +20,7 @@ print('Más de este miercoles 28 de septiembre de 2022')
 print("Ahora con Jupyter Notebook")
 print('Nuevamente clonando github con jupyter notebook con windows')
 print("otra más")
+print(19 de noviembre de 2022, otra más)
 
 
 
