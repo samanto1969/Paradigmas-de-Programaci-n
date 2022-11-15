@@ -4,7 +4,7 @@ from aplicacion.modelos.usuario import Usuario
 #=============================================================================
 # Para llenar la interface hay que heredar la clase
 #=============================================================================
-class BaseDeDatos(RepositorioDeUsuario):
+class BaseDeDatos(RepositorioDeUsuarios):
     __host: str
     __user: str
     __password: str

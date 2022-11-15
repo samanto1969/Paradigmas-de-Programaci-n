@@ -10,10 +10,10 @@ class S3(RepositorioDeUsuarios):
     __bucket: str
 
 
-    def __init__(mi, clientId: str, secretKer: str, bucket: str)
-    mi.__clientId = clientId
-    mi.__secretKey = secretKey
-    mi.__bucket = bucket
+    def __init__(mi, clientId: str, secretKey: str, bucket: str):
+        mi.__clientId = clientId
+        mi.__secretKey = secretKey
+        mi.__bucket = bucket
 
 
     def abrir(mi) -> None:

@@ -2,7 +2,7 @@
 # Del directorio aplicacion, el subdirectorio repositoriio,
 # el archivo basededatos.py : trae el objeto Basededatos
 #=======================================================
-from aplicacion.repositorio.basededatos impor BaseDeDatos
+from aplicacion.repositorio.basededatos import BaseDeDatos
 
 
 #==========================================================================
@@ -23,7 +23,7 @@ from aplicacion.repositorio.sistemadearchivos import SistemaDeArchivos
 # Del directorio aplicacion, el subdirectorio modelos,
 # el archivo usuario.py : trae el objeto Usuario
 #========================================================================
-from aplicacion.modelo.usuario import Usuario
+from aplicacion.modelos.usuario import Usuario
 
 
 #===========================================================================
