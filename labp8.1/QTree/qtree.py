@@ -5,7 +5,7 @@ import matplotlib.patches as patches
 class Particula():
     def __init__(self, x:float, y:float):
         self.x = x
-        slef.y = y
+        self.y = y
 
 class Nodo():
     def __init__(self, x0:float, y0:float, w:float, h:float, particulas):
@@ -40,11 +40,11 @@ def subdivision_recursiva(nodo:Nodo, k:int):
     nodo.x2 = Nodo(nodo.x0, nodo.y0+h_, w_, h_, p)
     subdivision_recursiva(nodo.x2, k)
 
-    p = cuantas_contiene(nodo.x0+w_, nodoy0, w_, h_, nodo.particulas)
+    p = cuantas_contiene(nodo.x0+w_, nodo.y0, w_, h_, nodo.particulas)
     nodo.x3 = Nodo(nodo.x0+w_, nodo.y0, w_, h_, p)
     subdivision_recursiva(nodo.x3, k)
 
-    p = cuantas_contiene(nodo.x0+w_, nodo.y0+h, w_, h_. nodo.particulas)
+    p = cuantas_contiene(nodo.x0+w_, nodo.y0+h_, w_, h_, nodo.particulas)
     nodo.x4 = Nodo(nodo.x0+w_, nodo.y0+h_, w_, h_, p)
     subdivision_recursiva(nodo.x4, k)
 
@@ -91,7 +91,7 @@ class QTree():
             areas.add(el.ancho*el.ancho)
         print("Minima area por segmento: %.3f units" %min(areas))
         for n in c:
-            plt.gcf().gca().add_patch(patches.Rectangle((n.x0, n.y0), n.ancho, nalto, fill=False))
+            plt.gcf().gca().add_patch(patches.Rectangle((n.x0, n.y0), n.ancho, n.alto, fill=False))
         x = [particula.x for particula in self.particulas]
         y = [particula.y for particula in self.particulas]
         plt.plot(x, y, 'ro') # muestra las particulas como puntos rojos
@@ -100,6 +100,7 @@ class QTree():
 
 qtree = QTree(2,200)
 qtree.subdividir()
-qtree.visualizacio()
+qtree.visualizacion()
+
 
 
