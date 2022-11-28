@@ -22,6 +22,8 @@ print('Nuevamente clonando github con jupyter notebook con windows')
 print("otra más")
 print("19 de noviembre de 2022, otra más")
 print("28 de noviembre de 2022")
+print("Estoy a punto de llorar")
+
 
 
 
