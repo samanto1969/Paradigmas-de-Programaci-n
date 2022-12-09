@@ -6,7 +6,7 @@ import time
 
 #--------------------------------------
 # Numero de celdas
-n = np.array([512,512])
+n = np.array([512,512)
 # Tamaño del dominio (menor que uno)
 L = np.array([1.0,1.0])
 # constante de difusióm
