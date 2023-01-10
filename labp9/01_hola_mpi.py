@@ -1,8 +1,12 @@
 #==================================================================
-#
-#
-#
-#
+#   INSTITUTO POLITECNICO NACIONAL
+#   ESCUELA SUPERIOR DE FÍSICA Y MATEMÁTICAS
+#   MATERIA:     PARADIGMAS DE PROGRAMACIÓN
+#   PROFESOR:    DOCTOR BECERRA SAGREDO JULIAN TERCERO
+#   GRUPO:       2AV1
+#   ALUMNO:      FERNANDO NICASIO RAMÍREZ
+#   FECHA:       11 DE ENERO DE 2023
+#===================================================================
 #
 #
 
