@@ -21,7 +21,7 @@ if rank == 0:
     randNum = np.random.random_sample(1)
     print("Proceso", rank, "genero", randNum[0])
     comm.Isend(randNum, dest=1)
-    req = comm.Irecv(randNum, sourse=1)
+    req = comm.Irecv(randNum, source=1)
     req.Wait()
     print("Proceso", rank, "recibió el número", randNum[0])
 

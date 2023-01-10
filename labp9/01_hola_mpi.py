@@ -1,3 +1,14 @@
+#==================================================================
+#
+#
+#
+#
+#
+#
+
+
+
+
 #===============================
 # mpiexc -n python3 hola_mpi.py
 # mpirun -n python3 hola_mpi.py
@@ -23,7 +34,7 @@ n_procesos = comunicadores.Get_size()
 # Numero identificador de de este proceso
 #=========================================
 
-quien_soy = comunicadoress.Get_rank()
+quien_soy = comunicadores.Get_rank()
 
 print("Saludos desde el proceso ", str(quien_soy), "de", str(n_procesos))
 

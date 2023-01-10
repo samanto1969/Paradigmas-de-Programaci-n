@@ -20,7 +20,7 @@ if __name__ == "__main__":
 
     s = Mensaje(rank)
     src = rank-1 if rank!=0 else size-1
-    dst = rank+1 if rank!=sie-1 else 0
+    dst = rank+1 if rank!=size-1 else 0
 
     #=====================
     # Envío no bloqueante
